@@ -2,8 +2,6 @@
 
 **_Code may not be completely functional_**
 
-<br/>
-
 ## **Using Remix:**
 
 <br/>
@@ -13,6 +11,8 @@ For implementing a simple flash loan, Flashloan.sol in remix should be enough
 However for doing anything practical, we need to execute operations. In such a scenario we must comply with the Aave documentation which clearly states
 
 > **_Your contract that receives the flash loaned amounts must conform to the IFlashLoanSimpleReceiver.sol or IFlashLoanReceiver.sol interface by implementing the relevant executeOperation() function._**
+
+Modify the contracts accordingly
 
 <br/>
 
