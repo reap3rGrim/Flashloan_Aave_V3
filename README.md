@@ -1,24 +1,22 @@
 # **Implementing a simple flash loan**
 
-**_Code may not be completely functional_**
+**_Code has been tested only on Remix_**
 
 ## **Using Remix:**
 
 <br/>
 
-For implementing a simple flash loan, Flashloan.sol in remix should be enough
+For implementing a simple flash loan, Flashloan.sol in remix should be enough. There are hardhat modules here, as in the future this is planned to be implemented through hardhat.
 
-However for doing anything practical, we need to execute operations. In such a scenario we must comply with the Aave documentation which clearly states
-
-> **_Your contract that receives the flash loaned amounts must conform to the IFlashLoanSimpleReceiver.sol or IFlashLoanReceiver.sol interface by implementing the relevant executeOperation() function._**
-
-Modify the contracts accordingly
+Modify the execute operation in the Flashloan.sol accordingly
 
 <br/>
 
 ## **Errors Encountered:**
 
--   Whenever you get the error that the contract should be marked as abstract, this means you need to call functions from the inherited contract
+- Refer to the [Testnet Addresses](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses)
+- Refer to the [ABI](https://docs.aave.com/developers/deployed-contracts/v3-mainnet/optimism) for working with the contracts
+- Refer to the [Aave Troubleshooting Errors](https://docs.aave.com/developers/v/2.0/guides/troubleshooting-errors)
 
 <br/>
 

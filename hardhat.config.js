@@ -2,7 +2,7 @@ require("dotenv").config()
 require("hardhat-deploy")
 require("@nomiclabs/hardhat-ethers")
 
-const OPTIMISM_RPC_URL = process.env.OPTIMISM_RPC_URL
+// const JSON_RPC_URL = process.env.JSON_RPC_URL
 
 module.exports = {
     solidity: "0.8.10",
@@ -10,7 +10,7 @@ module.exports = {
         hardhat: {
             chainId: 31337,
             forking: {
-                url: OPTIMISM_RPC_URL,
+                url: process.env.JSON_RPC_URL,
             },
         },
     },
