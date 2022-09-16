@@ -15,20 +15,22 @@ Modify the execute operation in the Flashloan.sol accordingly
 ## **Steps to follow for taking a Flash Loan:**
 
 1. Go to [Remix](https://remix.ethereum.org/), an online IDE for solidity
-2. Create a new file and paste the code in Flashloan.sol
-3. Use the injected Web 3 provider and connect to metamask
-4. Deploy the contract with the address of Addresses Provider in the your respective testnet. Refer to the [Testnet Addresses](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses)
-5. Set your respective token for which the flash loan is to be taken.
-6. Get some testnet tokens(For getting testnet tokens, the easiest way is to simply go to [app.aave.com](https://app.aave.com/) and taking the required amount)
-7. Check the premium fees using the FlashloanPremiumFees function.
-8. Deposit the premium fees in the contract(Errors at this step, currently resolving, if you simply want to understand flash loans this may not be necessary at the moment)
-9. Check the flag to see it's at false. If not, use the reset flag to reset the flag to 0.
-10. Select an amount of 1 for the flash loan(use a low amount at the moment, if you wish to scale the solution kindly open an issue and I'll be sure to update the code accordingly)
-11. Execute the Flash Loan by calling the flash loan function. If the flash loan executed successfully the flag will be set to true.
+2. Create a **new file** and **paste the code in Flashloan.sol**
+3. Use the **injected Web 3 provider** and connect to metamask
+4. **Deploy** the contract with the address of Addresses Provider in the your respective testnet. Refer to the [Testnet Addresses](https://docs.aave.com/developers/deployed-contracts/v3-testnet-addresses)
+5. **Set your respective token** for which the flash loan is to be taken.
+6. Get some testnet tokens
+    > (For getting testnet tokens, the easiest way is to simply go to [app.aave.com](https://app.aave.com/) and taking the required amount)
+7. **Check the premium fees** using the FlashloanPremiumFees function.
+8. **Deposit the premium fees** in the contract.
+    > **_Errors at this step, currently resolving, if you simply want to understand flash loans this may not be necessary at the moment)_**
+9. **Check the flag** to see it's at false. If not, use the reset flag to reset the flag to 0.
+10. **Select an amount of 1** for the flash loan(use a low amount at the moment, if you wish to scale the solution kindly open an issue and I'll be sure to update the code accordingly)
+11. **Execute the Flash Loan** by calling the flash loan function. If the flash loan executed successfully the flag will be set to true.
 
 <br />
 
-### **Note: At the moment I made no attempts to scale the contract to try to fix the error encountered during token depositing. However, if you wish, again raise an issue and I'll update the code accordingly.**
+**Note: At the moment I made no attempts to scale the contract to try to fix the error encountered during token depositing. However, if you happen to be interested in this, raise an issue and I'll update the code accordingly.**
 
 <br />
 
