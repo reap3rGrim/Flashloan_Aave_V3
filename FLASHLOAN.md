@@ -135,7 +135,9 @@ return flag;
 
 ## **Very Important Note**:
 
-> Many people get confused here into believing that you'll call the executeOperation(). Your contract should call the flashLoanSimple and Aave will call this function. So you really just have to put what you want to execute in this part.
+**Many people get confused here into believing that you'll call the executeOperation(). Your contract should call the flashLoanSimple and Aave will call this function. So you really just have to put what you want to execute in this part.**
+
+## **Finishing up**
 
 Now to finish with a function that calls the flashloan.
 
