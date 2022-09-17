@@ -12,6 +12,8 @@ Modify the execute operation in the Flashloan.sol accordingly
 
 <br/>
 
+## **Full Walkthrough of the Code is in the FLASHLOAN.md**
+
 ## **Steps to follow for taking a Flash Loan:**
 
 1. Go to [Remix](https://remix.ethereum.org/), an online IDE for solidity
@@ -47,6 +49,5 @@ Modify the execute operation in the Flashloan.sol accordingly
 -   [FlashLoan Tutorial by EatTheBlocks](https://www.youtube.com/watch?v=03jO9vbrXvY&list=PLbbtODcOYIoEMz-XatfkcFMsEwMmYShwk)
 -   [Alchemy tutorial](https://www.alchemy.com/overviews/creating-a-flash-loan-using-aave)
 -   [Griefing attack](https://ethereum.stackexchange.com/a/92457/19365)
--   R
 -   Refer to the [ABI](https://docs.aave.com/developers/deployed-contracts/v3-mainnet/optimism) for working with the contracts
 -   Check out [Triangular Arbritage](https://medium.com/coinmonks/triangular-arbitrage-with-crypto-dexs-part-one-add36b136bf1)
